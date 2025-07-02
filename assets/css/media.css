@@ -1,0 +1,418 @@
+/*      !Starting By Nour Mahmoud Abd El Rahem */
+
+/* ! Start Nav - Bar*/
+
+/* xl */
+@media screen and (min-width: 1280px) {
+  #nav-bar .container {
+    width: 87%;
+  }
+
+  #nav-bar .container .list-linke {
+    display: inline-block;
+  }
+
+  #nav-bar .container .icon .lest-icon {
+    display: none;
+  }
+
+  #nav-bar .container .list-linke ul {
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5625rem;
+  }
+
+  /* hover List - Nav Bar */
+
+  #nav-bar .container .list-linke ul .ho {
+    transition: 0.5s;
+  }
+  #nav-bar .container .list-linke ul .ho:hover {
+    color: var(--color-logo);
+  }
+
+  #nav-bar .container .list-linke ul .ch {
+    transition: 0.5s;
+  }
+  #nav-bar .container .list-linke ul .ch:hover {
+    color: var(--color-logo);
+  }
+
+  #nav-bar .container .list-linke ul .ga {
+    transition: 0.5s;
+  }
+  #nav-bar .container .list-linke ul .ga:hover {
+    color: var(--color-logo);
+  }
+
+  #nav-bar .container .list-linke ul .co {
+    transition: 0.5s;
+  }
+  #nav-bar .container .list-linke ul .co:hover {
+    color: var(--color-logo);
+  }
+
+  /*    End hover List - Nav Bar */
+
+  /*        !Nav Bar - Activated  */
+
+  body:has(:hover) #nav-bar .container .list-linke .ho {
+    color: var(--color-activat-body);
+  }
+}
+
+/*          !End Nav - Bar      */
+
+/*
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+*/
+
+/*          ! Start - Home        */
+
+/* sm */
+@media screen and (min-width: 640px) {
+  #home .item-text-bin .item-bin .icon-text .icon---ic {
+    position: relative;
+    left: 3.5%;
+    z-index: 2;
+  }
+}
+
+/* md */
+@media screen and (min-width: 768px) {
+}
+
+/* lg */
+@media screen and (min-width: 1024px) {
+  #home {
+    padding-block: 4.0625rem;
+  }
+
+  #home .container {
+    width: 87%;
+  }
+
+  #home .container .item-img {
+    width: 40.5%;
+    order: 1;
+  }
+
+  #home .item-text-bin .item-text {
+    margin-bottom: 1.875rem;
+  }
+
+  #home .container .item-text-bin {
+    width: 40%;
+    margin-top: 3.3125rem;
+    text-align: left;
+  }
+
+  #home .container .item-text-bin .item-bin {
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.9375rem;
+  }
+
+  #home .item-text-bin .item-bin .an-bin {
+    margin: 0;
+    margin-bottom: 0rem;
+    border-radius: 0rem 100vh 100vh;
+  }
+
+  #home .item-text-bin .item-bin .icon-text .icon---ic {
+    position: relative;
+    left: 7%;
+    z-index: 2;
+  }
+}
+
+/* xl */
+@media screen and (min-width: 1280px) {
+  #home .container .item-text-bin .item-bin {
+    width: 100%;
+  }
+}
+
+/* xxl */
+@media screen and (min-width: 1536px) {
+  #home .container .item-text-bin .item-bin {
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.9375rem;
+  }
+}
+
+/*          ! End - Home        */
+
+/*
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+*/
+
+/*          ! Start - Chefs         */
+
+/* md */
+@media screen and (min-width: 768px) {
+  #chefs .container .items-cards .card {
+    width: calc(calc(100% - var(--gap)) / 2);
+  }
+}
+
+/* lg */
+@media screen and (min-width: 1024px) {
+  #chefs .container {
+    width: 87%;
+  }
+
+  #chefs .container .items-cards .card {
+    width: calc(calc(100% - var(--gap) * 2) / 3);
+  }
+}
+
+/*          ! End - Chefs        */
+
+/*
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+*/
+
+/*          ! Start - gallery         */
+
+/* sm */
+@media screen and (min-width: 640px) {
+}
+
+/* md */
+@media screen and (min-width: 768px) {
+  #gallery .container .items-photos {
+    height: 1805px;
+  }
+
+  #gallery .container .items-photos picture {
+    width: calc(calc(100% - var(--gap)) / 2);
+  }
+
+  #gallery .container .items-photos .pizza {
+    order: 1;
+  }
+  #gallery .container .items-photos .fried {
+    order: 6;
+  }
+  #gallery .container .items-photos .omelette {
+    order: 4;
+  }
+  #gallery .container .items-photos .kofta {
+    order: 7;
+  }
+  #gallery .container .items-photos .burger {
+    order: 2;
+  }
+  #gallery .container .items-photos .pizza-slices {
+    order: 3;
+  }
+  #gallery .container .items-photos .steak {
+    order: 5;
+  }
+}
+
+/*  */
+
+@media screen and (min-width: 980px) {
+  #gallery .container .items-photos {
+    height: 1905px;
+  }
+}
+
+/* lg */
+@media screen and (min-width: 1024px) {
+  #gallery .container {
+    width: 87%;
+  }
+
+  #gallery .container .items-photos {
+    height: 845px;
+  }
+
+  #gallery .container .items-photos picture {
+    width: calc(calc(100% - var(--gap) * 2) / 3);
+  }
+
+  #gallery .container .items-photos .pizza {
+    order: 1;
+  }
+  #gallery .container .items-photos .fried {
+    order: 1;
+  }
+  #gallery .container .items-photos .omelette {
+    order: 1;
+  }
+  #gallery .container .items-photos .kofta {
+    order: 1;
+  }
+  #gallery .container .items-photos .burger {
+    order: 1;
+  }
+  #gallery .container .items-photos .pizza-slices {
+    order: 1;
+  }
+  #gallery .container .items-photos .steak {
+    order: 1;
+  }
+}
+
+/*  */
+
+@media screen and (min-width: 1132px) {
+  #gallery .container .items-photos {
+    height: 965px;
+  }
+}
+
+/* xl */
+@media screen and (min-width: 1280px) {
+  #gallery .container .items-photos {
+    height: 1000px;
+  }
+}
+
+/* xxl */
+@media screen and (min-width: 1536px) {
+  #gallery .container .items-photos {
+    height: 1265px;
+  }
+
+  #gallery .container .items-photos picture {
+    width: calc(calc(100% - var(--gap) * 2) / 3);
+  }
+}
+
+/*          ! End - gallery        */
+
+/*
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+*/
+
+/*          ! Start - Contact          */
+
+/* md */
+@media screen and (min-width: 768px) {
+  #contact .container .input-group input {
+    width: calc(calc(100% - var(--gap)) / 2);
+  }
+
+  #contact .container .details > div {
+    width: calc(calc(100% - var(--gap)) / 2);
+  }
+}
+
+/* lg */
+@media screen and (min-width: 1024px) {
+  #contact .container {
+    width: 87%;
+  }
+}
+
+/*          ! End - Contact        */
+
+/*
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+*/
+
+/*          ! Start - Footer       */
+
+/* sm */
+@media screen and (min-width: 640px) {
+  #footer
+  .container
+  .subscription .subscription-box .sunscription-group {
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0.3125rem;
+  }
+}
+
+/* md */
+@media screen and (min-width: 768px) {
+  #footer .container .about {
+    margin-top: 0px;
+  }
+
+  #footer .container :is(.about) {
+    width: calc(calc(100% - var(--gap)) / 2);
+    order: 0;
+  }
+
+  #footer .container :is(.subscription) {
+    width: 100%;
+    order: 2;
+  }
+}
+
+/* lg */
+@media screen and (min-width: 1024px) {
+  #footer .container {
+    width: 87%;
+  }
+}
+
+/* xl */
+@media screen and (min-width: 1280px) {
+
+  #footer .container :is(.about) {
+  width: calc(calc(100% - var(--gap) * 2) / 4);
+  order: 0;
+}
+
+#footer .container :is(.subscription) {
+  width: calc(calc(100% - var(--gap)) / 3);
+  order: 0;
+}
+
+}
+
+/* xxl */
+@media screen and (min-width: 1536px) {
+
+  #footer .container :is(.subscription) {
+  width: calc(calc(100% - var(--gap)) / 2);
+  order: 0;
+}
+
+}
+
+/*          ! End - Footer        */
+
+/*
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+*/
+
+/*     !Finish By Nour Mahmoud Abd El Rahem    */
